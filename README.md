@@ -1,10 +1,12 @@
 # Shoe_Website_php_html_css_javascripts_sql_crms
 Online shoe website with complete functions
-Users Available:
+
+# Users Available:
 - Registered User
 - Unregistered User
 - Admin
-Functions:
+
+# Functions:
 - CRMS (Login, Logout, Register)
 - Validations
 - Navigations
@@ -13,7 +15,7 @@ Functions:
 - Admin Update, Add, Delete
 - View Items
 - Listings
-- 
+
 # WEBSITE DEMO
 MAIN PAGE
 ![image](https://user-images.githubusercontent.com/74132232/142439133-8bd3f4fb-ed84-46cd-b40b-1b1c1b6d2011.png)
