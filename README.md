@@ -26,7 +26,9 @@ PRODUCT PAGE
 ![image](https://user-images.githubusercontent.com/74132232/142439210-31dc1a1a-d304-4eba-af11-90d8591ce8d9.png)
 CART ITEM PAGE
 ![image](https://user-images.githubusercontent.com/74132232/142439246-0df6f207-11e4-4df1-83fd-4dd24b187fb5.png)
+VALIDATION PAGE
 
+# STRUCTURE
 FLOWCART
 ![image](https://user-images.githubusercontent.com/74132232/142438695-7a101066-a4f0-4d01-937a-0692447b3125.png)
 CUSTOMER NAVIGATION STRUCTURE
