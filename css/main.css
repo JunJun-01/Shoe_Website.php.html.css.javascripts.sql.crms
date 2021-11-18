@@ -1,0 +1,471 @@
+html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+html, header{
+    background-repeat: no-repeat;
+    margin: 0;
+    
+    
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    display: block;
+    overflow: hidden;
+    padding: 33px;
+    margin: 0;
+    background-color: blue;
+    
+}
+
+.header .side-icon{
+    display: inline-block;
+    top: 10px;
+    right: 20px;
+    overflow: hidden;
+    margin: 0;
+    
+}
+
+.bi-bag-check{
+    position: absolute;
+    width: 40px;
+    height: 70px;
+    right: 20px;
+    top: 5px;
+    color: white;
+    
+}
+
+.bi-person-circle{
+    position: absolute;
+    width: 40px;
+    height: 70px;
+    right: 70px;
+    top: 7px;
+    color: white;
+}
+
+
+
+.title{
+	font-size: 2.3rem;
+	position: absolute;
+	top: 3%;
+	left: 50%;
+	transform: translate(-50%, -5%);
+	color: white;
+
+	width: 150px;
+    padding: 0px;
+
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+#welcome h1{
+    background-color: yellow;
+    display: block;
+    margin-top: 0px;
+}
+
+
+/* Navigation Menu */
+
+.navbar {
+    overflow: hidden;
+    background-color: blue;
+    margin-top: -22px;
+}
+  
+.navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: none;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+    border-radius: 25px;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 25px;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar input[type=text]{
+    float: right;
+    margin-top: 10px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.bi-search{
+    
+
+    position: absolute;
+    width: 20px;
+    height: 70px;
+    right: 22px;
+    top: 108px;
+    
+}
+
+
+@media screen and (max-width: 700px) {
+    .navbar .container0 {
+     display: none; 
+}}
+
+@media screen and (max-width: 700px) {
+    .bi-search{
+    display: none; 
+}}
+
+@media screen and (max-width: 600px) {
+    .title{
+    position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%, -5%);
+    } 
+}
+
+
+/* SlideShow Start */
+
+
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+
+
+/* Slideshow container */
+.slideshow-container {
+
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-container img{
+
+    height: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  display: none;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* Slideshow end */
+
+/* 3 anchor  */
+
+
+  
+  /* Clear floats after image containers */
+  
+/* style="width: 930px; max-width: 100%; border: 1px solid blue;" */
+
+
+.pic3 .container{
+    display: block;
+    flex-direction: row;
+    flex-wrap:unset;
+    width: 1000px;
+    height: auto;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+      
+}
+
+.container img{
+
+    width: 100%;
+    
+}
+  
+.container img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  max-height: 510px;
+  
+}
+
+
+  
+
+.new h1 > html{
+
+    background: gray;
+    text-align: center;
+    color:red;
+}
+
+
+/* product card */
+
+.container{
+
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+  overflow: hidden;
+  min-width: 0;
+  
+
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  min-width: 0;
+  margin: auto;
+  height: 250px;
+  text-align: center;
+  font-family: arial;
+  border-radius: 25px;
+  min-height: 0;
+  overflow: hidden;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  top: 50%;
+	left:50%;
+	transform: translate(0%, -1%);
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.card p1{
+  font-size: 35px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  
+}
+
+.card p{
+  font-size: 20px;
+}
+
+.card img{
+  position: relative;
+  max-width: 299px;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+  text-align: center;
+  min-height: 0;
+  overflow: hidden;
+
+}
+
+.but button{
+  border-radius: 25px;
+  max-width: 300px;
+  width: 150px;
+  height: 35px;
+  text-align: center;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 20px
+
+}
+
+.but button:hover{
+  transform: scale(1.1);
+}
+
+@media only screen and (min-width: 320px) {
+  .card p1{
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+  
+}
+
+/* Footer */
+
+footer{
+  
+  left: 0;
+  right: 0;
+  background: lightblue;
+	padding: 10px 10px 0px 10px;
+  height: 200px;
+  width: 100%;
+  font-family: "Open Sans";
+  
+  color: black;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 1px;
+  font-size: 14px;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+	left:-10%;
+	transform: translate(-13%, -50%);
+  
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: black;
+}
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+
+}
+.socials a:hover i{
+  color: black;
+}
